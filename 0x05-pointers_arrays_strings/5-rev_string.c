@@ -6,18 +6,45 @@
  */
 void rev_string(char *s)
 {
-	char rev = s[0];
-	int fcounter = 0;
-	int i;
+char *start_c. *end_c. c;
+int  i, count;
+int length = 0;
 
-	while (s[fcounter] != '\n')
-		fcounter++;
-
-	for (i = 0; i < founter; i++)
-	{
-		fcounter--;
-		rev = s[i];
-		s[i] = s[fcounter];
-		s[fcounter] = rev;
-	}
+for (i = 0; s[i]; i++)
+{
+	length++;
 }
+
+count = length;
+
+start_c = s;
+end_c = s;
+
+for (i = 0; i < count - 1; i++)
+{
+end_c++;
+}
+for (i = 0; i < count /2; i++)
+{
+c = +end_c;
+*end_c = *start_c;
+*start_c = c;
+
+start_c++;
+end_c--;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
